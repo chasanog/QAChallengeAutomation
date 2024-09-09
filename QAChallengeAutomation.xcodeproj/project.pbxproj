@@ -14,6 +14,12 @@
 		3B67D1E32C81DC91003A5A08 /* QAChallengeAutomationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B67D1E22C81DC91003A5A08 /* QAChallengeAutomationTests.swift */; };
 		3B67D1ED2C81DC91003A5A08 /* QAChallengeAutomationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B67D1EC2C81DC91003A5A08 /* QAChallengeAutomationUITests.swift */; };
 		3B67D1EF2C81DC91003A5A08 /* QAChallengeAutomationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B67D1EE2C81DC91003A5A08 /* QAChallengeAutomationUITestsLaunchTests.swift */; };
+		3BC3EEB12C88A21C00B2DCD0 /* AppStoreObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3EEB02C88A21C00B2DCD0 /* AppStoreObjects.swift */; };
+		3BC3EEB32C88A7BC00B2DCD0 /* WareHouseAppObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3EEB22C88A7BB00B2DCD0 /* WareHouseAppObjects.swift */; };
+		3BCF34542C8DFD3E0000E710 /* SpringBoardObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF34532C8DFD3E0000E710 /* SpringBoardObjects.swift */; };
+		3BCF34572C8DFDFD0000E710 /* DownloadAndInstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF34562C8DFDFD0000E710 /* DownloadAndInstall.swift */; };
+		3BCF345A2C8DFF760000E710 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF34592C8DFF760000E710 /* HelperFunctions.swift */; };
+		3BCF345C2C8E06C00000E710 /* BasicScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF345B2C8E06C00000E710 /* BasicScenario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		3B67D1E82C81DC91003A5A08 /* QAChallengeAutomationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QAChallengeAutomationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B67D1EC2C81DC91003A5A08 /* QAChallengeAutomationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAChallengeAutomationUITests.swift; sourceTree = "<group>"; };
 		3B67D1EE2C81DC91003A5A08 /* QAChallengeAutomationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAChallengeAutomationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BC3EEB02C88A21C00B2DCD0 /* AppStoreObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreObjects.swift; sourceTree = "<group>"; };
+		3BC3EEB22C88A7BB00B2DCD0 /* WareHouseAppObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WareHouseAppObjects.swift; sourceTree = "<group>"; };
+		3BCF34532C8DFD3E0000E710 /* SpringBoardObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringBoardObjects.swift; sourceTree = "<group>"; };
+		3BCF34562C8DFDFD0000E710 /* DownloadAndInstall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAndInstall.swift; sourceTree = "<group>"; };
+		3BCF34592C8DFF760000E710 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		3BCF345B2C8E06C00000E710 /* BasicScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScenario.swift; sourceTree = "<group>"; };
+		3BF1B39C2C8F464B005E22EF /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,7 @@
 		3B67D1C52C81DC8E003A5A08 = {
 			isa = PBXGroup;
 			children = (
+				3BF1B39C2C8F464B005E22EF /* .gitignore.md */,
 				3B67D1D02C81DC8E003A5A08 /* QAChallengeAutomation */,
 				3B67D1E12C81DC91003A5A08 /* QAChallengeAutomationTests */,
 				3B67D1EB2C81DC91003A5A08 /* QAChallengeAutomationUITests */,
@@ -121,10 +135,40 @@
 		3B67D1EB2C81DC91003A5A08 /* QAChallengeAutomationUITests */ = {
 			isa = PBXGroup;
 			children = (
+				3BCF34582C8DFF630000E710 /* Helper */,
+				3BCF34552C8DFDE60000E710 /* Actions */,
+				3BC3EEAF2C88A1F500B2DCD0 /* PageObjects */,
 				3B67D1EC2C81DC91003A5A08 /* QAChallengeAutomationUITests.swift */,
 				3B67D1EE2C81DC91003A5A08 /* QAChallengeAutomationUITestsLaunchTests.swift */,
 			);
 			path = QAChallengeAutomationUITests;
+			sourceTree = "<group>";
+		};
+		3BC3EEAF2C88A1F500B2DCD0 /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				3BC3EEB02C88A21C00B2DCD0 /* AppStoreObjects.swift */,
+				3BC3EEB22C88A7BB00B2DCD0 /* WareHouseAppObjects.swift */,
+				3BCF34532C8DFD3E0000E710 /* SpringBoardObjects.swift */,
+			);
+			path = PageObjects;
+			sourceTree = "<group>";
+		};
+		3BCF34552C8DFDE60000E710 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF34562C8DFDFD0000E710 /* DownloadAndInstall.swift */,
+				3BCF345B2C8E06C00000E710 /* BasicScenario.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		3BCF34582C8DFF630000E710 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF34592C8DFF760000E710 /* HelperFunctions.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCF34542C8DFD3E0000E710 /* SpringBoardObjects.swift in Sources */,
+				3BCF345A2C8DFF760000E710 /* HelperFunctions.swift in Sources */,
+				3BCF34572C8DFDFD0000E710 /* DownloadAndInstall.swift in Sources */,
+				3BC3EEB12C88A21C00B2DCD0 /* AppStoreObjects.swift in Sources */,
 				3B67D1ED2C81DC91003A5A08 /* QAChallengeAutomationUITests.swift in Sources */,
+				3BCF345C2C8E06C00000E710 /* BasicScenario.swift in Sources */,
 				3B67D1EF2C81DC91003A5A08 /* QAChallengeAutomationUITestsLaunchTests.swift in Sources */,
+				3BC3EEB32C88A7BC00B2DCD0 /* WareHouseAppObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QAChallengeAutomation/Preview Content\"";
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = 3255CJVMA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -451,7 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QAChallengeAutomation/Preview Content\"";
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -479,7 +529,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = 3255CJVMA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -499,7 +549,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = 3255CJVMA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -516,12 +566,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = 3255CJVMA4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshdev.QAChallengeAutomationUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cshdev.QAChallengeAutomationUITests2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -534,12 +586,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32GL9FBSV9;
+				DEVELOPMENT_TEAM = 3255CJVMA4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshdev.QAChallengeAutomationUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cshdev.QAChallengeAutomationUITests2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
