@@ -56,7 +56,7 @@
 		3BCF34562C8DFDFD0000E710 /* DownloadAndInstall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAndInstall.swift; sourceTree = "<group>"; };
 		3BCF34592C8DFF760000E710 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		3BCF345B2C8E06C00000E710 /* BasicScenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScenario.swift; sourceTree = "<group>"; };
-		3BF1B39C2C8F464B005E22EF /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
+		3BF1B39C2C8F464B005E22EF /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		3B67D1C52C81DC8E003A5A08 = {
 			isa = PBXGroup;
 			children = (
-				3BF1B39C2C8F464B005E22EF /* .gitignore.md */,
+				3BF1B39C2C8F464B005E22EF /* Readme.md */,
 				3B67D1D02C81DC8E003A5A08 /* QAChallengeAutomation */,
 				3B67D1E12C81DC91003A5A08 /* QAChallengeAutomationTests */,
 				3B67D1EB2C81DC91003A5A08 /* QAChallengeAutomationUITests */,
